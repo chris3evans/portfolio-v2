@@ -1,0 +1,29 @@
+.hero-section {
+  height: 91vh;
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 5rem;
+  align-content: center;
+}
+
+.hero-heading {
+  font-size: 10rem;
+}
+
+.hero-text {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.hero-special-text {
+  color: red;
+  background: -webkit-linear-gradient(
+    left,
+    var(--color-light-red),
+    var(--color-red)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}

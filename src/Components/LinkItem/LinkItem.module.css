@@ -1,0 +1,13 @@
+.link-item {
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+}
+
+.link-link {
+}
+
+.link-image {
+  height: 5rem;
+}

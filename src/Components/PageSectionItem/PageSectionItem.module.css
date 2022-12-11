@@ -1,0 +1,35 @@
+.page-section-item {
+  position: relative;
+  padding: 1.5rem 2.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+}
+
+.page-section-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0.2rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  transform: scaleY(0);
+  transition: transform 0.3s, width 0.2s 0.3s;
+  z-index: 2;
+}
+
+.page-section-item:hover::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.page-section-item-text {
+  font-size: 3rem;
+  text-align: center;
+  z-index: 3;
+}

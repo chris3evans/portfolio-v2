@@ -1,0 +1,17 @@
+.skills-section {
+  height: 100%;
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 10rem;
+}
+
+.skills-section-heading {
+  font-size: 6rem;
+}
+
+.skill-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10rem;
+}

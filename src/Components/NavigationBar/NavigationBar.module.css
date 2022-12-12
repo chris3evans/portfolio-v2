@@ -2,4 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: fadeUpIn 2s 1;
+}
+
+@keyframes fadeUpIn {
+  0% {
+    transform: translateY(0rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(7.5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
 }

@@ -9,11 +9,30 @@
 
 .hero-heading {
   font-size: 10rem;
+  animation: scale-easeOutElastic 2s 1;
+}
+
+.hero-text-container {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 1.5rem;
 }
 
 .hero-text {
   font-size: 2.5rem;
   line-height: 4rem;
+}
+
+#hello {
+  display: inline-block;
+  animation: wave 0.5s 2s 1;
+}
+
+#hero-text-1 {
+  animation: scale-easeOutElastic-2 4s 1;
+}
+#hero-text-2 {
+  animation: scale-easeOutElastic-2 5s 1;
 }
 
 .hero-special-text {
@@ -26,4 +45,55 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes scale-easeOutElastic {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-easeOutElastic-2 {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
 }

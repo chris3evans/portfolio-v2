@@ -14,11 +14,11 @@ const LinkList = function () {
         asset="LinkedIn"
         imageUrl="linkedin-image-icon.png"
       ></LinkItem>
-      <LinkItem
+      {/* <LinkItem
         link="#"
-        asset="GitHub"
+        asset="Resume"
         imageUrl="resume-image-icon.png"
-      ></LinkItem>
+      ></LinkItem> */}
     </ul>
   );
 };

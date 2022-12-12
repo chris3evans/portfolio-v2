@@ -1,13 +1,16 @@
 .link-item {
-  padding: 1.5rem 1rem;
+  padding: 2.5rem 1rem;
   cursor: pointer;
   display: flex;
   justify-self: center;
 }
 
-.link-link {
+.link-item:hover > .link-link > .link-image {
+  opacity: 0.8;
 }
 
 .link-image {
+  opacity: 1;
   height: 5rem;
+  transition: all 0.3s;
 }

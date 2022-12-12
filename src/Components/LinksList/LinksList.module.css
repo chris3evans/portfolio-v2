@@ -1,5 +1,5 @@
 .link-list {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(2, max-content);
   list-style: none;
 }

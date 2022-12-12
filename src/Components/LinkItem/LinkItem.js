@@ -3,7 +3,7 @@ import styles from "./LinkItem.module.css";
 const LinkItem = function (props) {
   return (
     <li key={props.asset} className={styles["link-item"]}>
-      <a className={styles["link-link"]} href={props.link}>
+      <a target="_blank" href={props.link}>
         <img
           className={styles["link-image"]}
           src={require(`../../assets/${props.imageUrl}`)}

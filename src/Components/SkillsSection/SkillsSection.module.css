@@ -2,7 +2,7 @@
   height: 100%;
   padding: 5rem;
   display: grid;
-  grid-template-rows: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
   grid-row-gap: 2.5rem;
 }
 
@@ -15,4 +15,37 @@
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 12.5rem;
   padding: 5rem;
+}
+
+.tech-icons-container {
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+  margin: 10rem auto 0rem auto;
+  display: flex;
+}
+
+.tech-icons-container::before,
+.tech-icons-container::after {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 20rem;
+  z-index: 2;
+}
+
+.tech-icons-container::before {
+  left: 0;
+  top: 0;
+}
+
+.tech-icons-container::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }

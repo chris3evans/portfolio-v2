@@ -2,6 +2,7 @@ import styles from "./SkillsSection.module.css";
 import FrontEndSkillList from "../SkillLists/FrontEndSkillList";
 import BackEndSkillList from "../SkillLists/BackEndSkillList";
 import OtherSkillList from "../SkillLists/OtherSkillList";
+import TechIconList from "../TechIconList/TechIconList";
 
 const SkillsSection = function () {
   return (
@@ -11,6 +12,9 @@ const SkillsSection = function () {
         <FrontEndSkillList></FrontEndSkillList>
         <BackEndSkillList></BackEndSkillList>
         <OtherSkillList></OtherSkillList>
+      </div>
+      <div className={styles["tech-icons-container"]}>
+        <TechIconList></TechIconList>
       </div>
     </div>
   );

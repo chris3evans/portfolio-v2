@@ -1,0 +1,133 @@
+.card {
+  perspective: 150rem;
+  position: relative;
+  width: 85rem;
+  height: 44.93rem;
+}
+
+.card:hover .card-front {
+  transform: translateY(-2rem) rotateY(180deg);
+  box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
+}
+
+.card:hover .card-back {
+  transform: translateY(-2rem) rotateY(0deg);
+  box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
+}
+
+.card-front {
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  padding: 1rem;
+  box-shadow: 0rem 0.5rem 2rem rgba(255, 255, 255, 0.5);
+}
+
+.card-back {
+  background: linear-gradient(to bottom right, var(--color-light-red), grey);
+  transition: all 1s ease;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 3rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+}
+.project-title-top {
+  position: absolute;
+  bottom: 9rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  z-index: 2;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.project-title-bottom {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.tech-list {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 1rem;
+}
+
+.tech-title {
+  font-size: 4rem;
+  text-align: center;
+}
+.tech-lists-container {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-column-gap: 15rem;
+}
+
+.tech-type-title {
+  font-size: 3rem;
+}
+
+.front-end-list {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, min-content);
+  grid-row-gap: 0.6rem;
+}
+.back-end-list {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-row-gap: 0.6rem;
+}
+.tech-item {
+}
+.tech-text {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.visit-button {
+  border: none;
+  padding: 1.2rem 6rem;
+  background-color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+.visit-button:hover {
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}

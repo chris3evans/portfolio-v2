@@ -1,0 +1,6 @@
+.app-list {
+  display: grid;
+  grid-auto-rows: repeat(2, min-content);
+  justify-content: center;
+  list-style: none;
+}

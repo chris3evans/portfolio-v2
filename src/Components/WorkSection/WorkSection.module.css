@@ -1,0 +1,13 @@
+.work-section {
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 10rem;
+}
+
+.work-section-heading {
+  font-size: 6rem;
+}
+
+.work-section-lists {
+}

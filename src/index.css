@@ -13,6 +13,7 @@ html {
 :root {
   --color-red: rgb(255, 0, 0);
   --color-light-red: rgb(224, 83, 83);
+  --color-very-light-red: rgb(204, 131, 131);
 }
 
 body {

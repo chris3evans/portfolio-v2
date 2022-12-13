@@ -4,9 +4,21 @@ import LinkItem from "../LinkItem/LinkItem";
 const LinkList = function () {
   return (
     <ul className={styles["link-list"]}>
-      <LinkItem link="*GITHUB LINK*"></LinkItem>
-      <LinkItem link="*LINKEDIN LINK*"></LinkItem>
-      <LinkItem link="*RESUME LINK*"></LinkItem>
+      <LinkItem
+        link="https://github.com/chris3evans"
+        asset="GitHub"
+        imageUrl="github-transparent.png"
+      ></LinkItem>
+      <LinkItem
+        link="https://www.linkedin.com/in/christopher-3-evans/"
+        asset="LinkedIn"
+        imageUrl="linkedin-image-icon.png"
+      ></LinkItem>
+      {/* <LinkItem
+        link="#"
+        asset="Resume"
+        imageUrl="resume-image-icon.png"
+      ></LinkItem> */}
     </ul>
   );
 };

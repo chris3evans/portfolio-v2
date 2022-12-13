@@ -1,0 +1,11 @@
+.tech-icon-item {
+  height: auto;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+.tech-icon {
+  width: 100%;
+}

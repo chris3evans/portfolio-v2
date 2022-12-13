@@ -1,0 +1,16 @@
+.tech-icon-list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 190rem;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(-97.5rem);
+  }
+}

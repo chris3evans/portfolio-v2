@@ -5,6 +5,7 @@ import SpecterAndRoss from "../SiteItems/SpecterAndRoss";
 import SkyDiveDubai from "../SiteItems/SkyDiveDubai";
 import Miniforge from "../SiteItems/Miniforge";
 import TheDragonClub from "../SiteItems/TheDragonClub";
+import WazoCapital from "../SiteItems/WazoCapital";
 
 const SiteList = function () {
   return (
@@ -14,6 +15,7 @@ const SiteList = function () {
       <SkyDiveDubai></SkyDiveDubai>
       <Miniforge></Miniforge>
       <TheDragonClub></TheDragonClub>
+      <WazoCapital></WazoCapital>
     </ul>
   );
 };

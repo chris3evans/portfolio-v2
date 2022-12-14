@@ -1,15 +1,15 @@
-import styles from "./AceCam.module.css";
+import styles from "./Canmore.module.css";
 import "../../index.css";
 
-const AceCam = function () {
+const Canmore = function () {
   return (
-    <li key="acecam" className="card-site">
+    <li key="canmore" className="card-site">
       <div className="card-front">
         <img
           className="project-image"
-          src={require("../../assets/acecam.png")}
+          src={require("../../assets/canmore.png")}
         ></img>
-        <h3 className={styles["project-title"]}>AceCam</h3>
+        <h3 className={styles["project-title"]}>Canmore</h3>
       </div>
       <div className="card-back">
         <h3 className="tech-title">Tech Stack</h3>
@@ -30,7 +30,7 @@ const AceCam = function () {
         <div className="button-container">
           <a
             type="button"
-            href="https://ace-cam.netlify.app"
+            href="https://canmore.netlify.app"
             target="_blank"
             className="visit-button"
           >
@@ -42,4 +42,4 @@ const AceCam = function () {
   );
 };
 
-export default AceCam;
+export default Canmore;

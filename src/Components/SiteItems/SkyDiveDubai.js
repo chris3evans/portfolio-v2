@@ -29,7 +29,12 @@ const SkyDiveDubai = function () {
           </ul>
         </div>
         <div className="button-container">
-          <a type="button" href="#" target="_blank" className="visit-button">
+          <a
+            type="button"
+            href="https://dubai-skydive.netlify.app"
+            target="_blank"
+            className="visit-button"
+          >
             Visit
           </a>
         </div>

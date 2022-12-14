@@ -11,6 +11,9 @@ html {
 }
 
 :root {
+  --color-very-very-dark-red: rgb(32, 0, 0);
+  --color-very-dark-red: rgb(53, 0, 0);
+  --color-dark-red: rgb(131, 0, 0);
   --color-red: rgb(255, 0, 0);
   --color-light-red: rgb(224, 83, 83);
   --color-very-light-red: rgb(204, 131, 131);

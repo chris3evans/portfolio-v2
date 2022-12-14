@@ -1,16 +1,15 @@
-import styles from "./MyFitnessTracker.module.css";
+import styles from "./Topfolio.module.css";
 import "../../index.css";
 
-const MyFitnessTracker = function () {
+const Topfolio = function () {
   return (
-    <li key="my-fitness-tracker" className="card">
+    <li key="topfolio" className="card">
       <div className="card-front">
         <img
           className="project-image"
-          src={require("../../assets/my-fitness-tracker.png")}
+          src={require("../../assets/topfolio.png")}
         ></img>
-        <h3 className={styles["project-title-top"]}>My Fitness</h3>
-        <h3 className={styles["project-title-bottom"]}>Tracker</h3>
+        <h3 className={styles["project-title"]}>Topfolio</h3>
       </div>
       <div className="card-back">
         <h3 className="tech-title">Tech Stack</h3>
@@ -30,8 +29,11 @@ const MyFitnessTracker = function () {
               <li key="React">
                 <p className="tech-text">React</p>
               </li>
-              <li key="Tailwind CSS">
-                <p className="tech-text">Tailwind CSS</p>
+              <li key="Material UI">
+                <p className="tech-text">Material UI</p>
+              </li>
+              <li key="TypeScript">
+                <p className="tech-text">TypeScript</p>
               </li>
             </ul>
           </div>
@@ -45,11 +47,11 @@ const MyFitnessTracker = function () {
               <li key="Express">
                 <p className="tech-text">Express</p>
               </li>
-              <li key="PostgreSQL">
-                <p className="tech-text">PostgreSQL</p>
+              <li key="MongoDB">
+                <p className="tech-text">MongoDB</p>
               </li>
-              <li key="Sequelize">
-                <p className="tech-text">Sequelize</p>
+              <li key="Mongoose">
+                <p className="tech-text">Mongoose</p>
               </li>
             </ul>
           </div>
@@ -64,4 +66,4 @@ const MyFitnessTracker = function () {
   );
 };
 
-export default MyFitnessTracker;
+export default Topfolio;

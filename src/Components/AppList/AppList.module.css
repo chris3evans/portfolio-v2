@@ -3,4 +3,5 @@
   grid-auto-rows: repeat(2, min-content);
   justify-content: center;
   list-style: none;
+  grid-row-gap: 15rem;
 }

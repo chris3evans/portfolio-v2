@@ -32,19 +32,32 @@ code {
     monospace;
 }
 
-.card {
+.card-site {
+  perspective: 150rem;
+  position: relative;
+  width: 65rem;
+  height: 30.89rem;
+}
+.card-site:hover .card-front {
+  transform: translateY(-2rem) rotateY(180deg);
+  box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
+}
+.card-site:hover .card-back {
+  transform: translateY(-2rem) rotateY(0deg);
+  box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
+}
+
+.card-app {
   perspective: 150rem;
   position: relative;
   width: 85rem;
   height: 44.93rem;
 }
-
-.card:hover .card-front {
+.card-app:hover .card-front {
   transform: translateY(-2rem) rotateY(180deg);
   box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
 }
-
-.card:hover .card-back {
+.card-app:hover .card-back {
   transform: translateY(-2rem) rotateY(0deg);
   box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
 }

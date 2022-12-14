@@ -3,7 +3,7 @@ import "../../index.css";
 
 const Topfolio = function () {
   return (
-    <li key="topfolio" className="card">
+    <li key="topfolio" className="card-app">
       <div className="card-front">
         <img
           className="project-image"

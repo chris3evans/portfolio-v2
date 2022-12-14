@@ -3,7 +3,7 @@ import "../../index.css";
 
 const MyFitnessTracker = function () {
   return (
-    <li key="my-fitness-tracker" className="card">
+    <li key="my-fitness-tracker" className="card-app">
       <div className="card-front">
         <img
           className="project-image"

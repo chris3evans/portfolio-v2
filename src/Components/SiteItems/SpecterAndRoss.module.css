@@ -1,0 +1,33 @@
+.project-title-top {
+  position: absolute;
+  bottom: 7.5rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  z-index: 2;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.project-title-bottom {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.front-end-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 2.5rem;
+}

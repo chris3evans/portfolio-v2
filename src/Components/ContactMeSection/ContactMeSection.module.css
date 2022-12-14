@@ -1,0 +1,10 @@
+.contact-me-section {
+  height: 100%;
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 10rem;
+}
+.contact-me-section-heading {
+  font-size: 6rem;
+}

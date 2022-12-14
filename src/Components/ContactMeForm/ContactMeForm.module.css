@@ -1,0 +1,66 @@
+.contact-me-form {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  justify-items: center;
+  width: 75%;
+  margin: 0 auto;
+  grid-row-gap: 7.5rem;
+}
+
+.contact-me-message {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.contact-me-container {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  width: 25rem;
+  justify-items: center;
+}
+
+.contact-me-link-container {
+  height: 15rem;
+  width: 15rem;
+  animation: hover 1s infinite;
+}
+
+.contact-me-link {
+}
+
+.contact-me-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.icon-hover-container {
+  animation: hover-shadow 1s infinite;
+}
+
+.icon-hover-image {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0rem) scale(1);
+  }
+  50% {
+    transform: translateY(-0.3rem) scale(1.02);
+  }
+  100% {
+    transform: translateY(0rem) scale(1);
+  }
+}
+
+@keyframes hover-shadow {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 107.5%;
+  }
+  100% {
+    width: 100%;
+  }
+}

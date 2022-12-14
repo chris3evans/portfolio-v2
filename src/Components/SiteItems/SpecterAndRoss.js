@@ -29,7 +29,12 @@ const SpecterAndRoss = function () {
           </ul>
         </div>
         <div className="button-container">
-          <a type="button" href="#" target="_blank" className="visit-button">
+          <a
+            type="button"
+            href="https://specter-and-ross.netlify.app"
+            target="_blank"
+            className="visit-button"
+          >
             Visit
           </a>
         </div>

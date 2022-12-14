@@ -32,7 +32,12 @@ const TheDragonClub = function () {
           </ul>
         </div>
         <div className="button-container">
-          <a type="button" href="#" target="_blank" className="visit-button">
+          <a
+            type="button"
+            href="https://the-dragons-club.netlify.app"
+            target="_blank"
+            className="visit-button"
+          >
             Visit
           </a>
         </div>

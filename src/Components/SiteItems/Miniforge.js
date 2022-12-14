@@ -34,7 +34,12 @@ const Miniforge = function () {
           </ul>
         </div>
         <div className="button-container">
-          <a type="button" href="#" target="_blank" className="visit-button">
+          <a
+            type="button"
+            href="https://miniforge-email-sign-up.netlify.app"
+            target="_blank"
+            className="visit-button"
+          >
             Visit
           </a>
         </div>

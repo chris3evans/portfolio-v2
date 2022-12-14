@@ -1,15 +1,16 @@
-import styles from "./AceCam.module.css";
+import styles from "./JuliasRestaurant.module.css";
 import "../../index.css";
 
-const AceCam = function () {
+const JuliasRestaurant = function () {
   return (
-    <li key="acecam" className="card-site">
+    <li key="julias-restaurant" className="card-site">
       <div className="card-front">
         <img
           className="project-image"
-          src={require("../../assets/acecam.png")}
+          src={require("../../assets/julias-restaurant.png")}
         ></img>
-        <h3 className={styles["project-title"]}>AceCam</h3>
+        <h3 className={styles["project-title-top"]}>Julia's</h3>
+        <h3 className={styles["project-title-bottom"]}>Restaurant</h3>
       </div>
       <div className="card-back">
         <h3 className="tech-title">Tech Stack</h3>
@@ -30,7 +31,7 @@ const AceCam = function () {
         <div className="button-container">
           <a
             type="button"
-            href="https://ace-cam.netlify.app"
+            href="https://julias-restaurant.netlify.app"
             target="_blank"
             className="visit-button"
           >
@@ -42,4 +43,4 @@ const AceCam = function () {
   );
 };
 
-export default AceCam;
+export default JuliasRestaurant;

@@ -4,6 +4,16 @@
   display: grid;
   grid-template-rows: repeat(3, min-content);
   grid-row-gap: 5rem;
+  background: linear-gradient(
+    to bottom,
+    black,
+    black,
+    black,
+    var(--color-very-very-dark-red),
+    black,
+    black,
+    black
+  );
 }
 
 .skills-section-heading {

@@ -2,7 +2,7 @@ import styles from "./AboutMeSection.module.css";
 
 const AboutMeSection = function () {
   return (
-    <div className={styles["hero-section"]}>
+    <div className={styles["hero-section"]} id="section-about-me">
       <h1 className={styles["hero-heading"]}>
         <span id={styles["hello"]}>Hello</span> there
       </h1>

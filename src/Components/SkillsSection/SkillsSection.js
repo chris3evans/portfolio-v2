@@ -6,8 +6,8 @@ import TechIconList from "../TechIconList/TechIconList";
 
 const SkillsSection = function () {
   return (
-    <div className={styles["skills-section"]}>
-      <h2 className={styles["skills-section-heading"]}>My Skills</h2>
+    <div className={styles["skills-section"]} id="section-my-skills">
+      <h2>My Skills</h2>
       <div className={styles["skill-list-container"]}>
         <FrontEndSkillList></FrontEndSkillList>
         <BackEndSkillList></BackEndSkillList>

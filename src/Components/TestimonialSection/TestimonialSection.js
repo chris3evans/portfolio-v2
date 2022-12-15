@@ -4,7 +4,7 @@ import TestimonialSlider from "../TestimonialSlider/TestimonialSlider";
 
 const TestimonialSection = function () {
   return (
-    <div className={styles["testimonials-section"]}>
+    <div className={styles["testimonials-section"]} id="section-testimonials">
       <h2 className={styles["testimonials-section-heading"]}>Testimonials</h2>
       <TestimonialSlider></TestimonialSlider>
     </div>

@@ -11,10 +11,6 @@
   );
 }
 
-.work-section-heading {
-  font-size: 6rem;
-}
-
 .work-section-lists {
   display: grid;
   grid-template-rows: repeat(2, min-content);

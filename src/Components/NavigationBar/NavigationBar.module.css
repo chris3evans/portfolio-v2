@@ -3,9 +3,10 @@
   justify-content: space-between;
   align-items: center;
   animation: fadeUpIn 2s 1;
-  /* position: sticky;
+  position: sticky;
   top: 0;
-  left: 0; */
+  left: 0;
+  z-index: 100;
 }
 
 @keyframes fadeUpIn {

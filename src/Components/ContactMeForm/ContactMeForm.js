@@ -9,10 +9,7 @@ const ContactMeForm = function () {
       </p>
       <div className={styles["contact-me-container"]}>
         <div className={styles["contact-me-link-container"]}>
-          <a
-            className={styles["contact-me-link"]}
-            href="mailto:chris3evans.ce@gmail.com"
-          >
+          <a href="mailto:chris3evans.ce@gmail.com">
             <img
               className={styles["contact-me-icon"]}
               src={require("../../assets/email-transparent.png")}

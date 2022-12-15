@@ -24,16 +24,12 @@
   animation: hover 1s infinite;
 }
 
-.contact-me-link {
-}
-
 .contact-me-icon {
   height: 100%;
   width: 100%;
 }
 
 .icon-hover-container {
-  animation: hover-shadow 1s infinite;
 }
 
 .icon-hover-image {
@@ -50,17 +46,5 @@
   }
   100% {
     transform: translateY(0rem) scale(1);
-  }
-}
-
-@keyframes hover-shadow {
-  0% {
-    width: 100%;
-  }
-  50% {
-    width: 107.5%;
-  }
-  100% {
-    width: 100%;
   }
 }

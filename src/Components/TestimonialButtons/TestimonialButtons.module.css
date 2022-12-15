@@ -1,0 +1,25 @@
+.testimonial-buttons-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.testimonial-button:not(:last-of-type) {
+  margin-right: 1rem;
+}
+.testimonial-button:hover {
+  background-color: rgb(122, 2, 2);
+}

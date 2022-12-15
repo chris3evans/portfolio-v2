@@ -1,12 +1,25 @@
 import styles from "./TestimonialButtons.module.css";
 
-const TestimonialButtons = function () {
+const TestimonialButtons = function (props) {
+  const numButtons = Array.from({ length: props.numSlides });
+
   return (
     <div className={styles["testimonial-buttons-container"]}>
-      <button className={styles["testimonial-button"]} id={1}></button>
-      <button className={styles["testimonial-button"]} id={2}></button>
-      <button className={styles["testimonial-button"]} id={3}></button>
-      <button className={styles["testimonial-button"]} id={4}></button>
+      {numButtons.map((_, index) => {
+        return (
+          <button
+            key={index}
+            onClick={props.clickHandler}
+            className={styles["testimonial-button"]}
+            id={index}
+            style={{
+              backgroundColor: `${
+                props.curSlide === index ? "rgb(122, 2, 2)" : "red"
+              }`,
+            }}
+          ></button>
+        );
+      })}
     </div>
   );
 };

@@ -2,7 +2,14 @@ import styles from "./TestimonialSlide.module.css";
 
 const TestimonialSlide = function (props) {
   return (
-    <div className={styles["testimonial-slide"]}>
+    <div
+      style={{
+        transform: `translateX(${100 * (props.slideNumber - props.curSlide)}%)`,
+        transition: "all 1s",
+      }}
+      className={styles["testimonial-slide"]}
+      key={props.slideNumber}
+    >
       <div className={styles["testimonial-slide-content"]}>
         <img
           className={styles["testimonial-image"]}

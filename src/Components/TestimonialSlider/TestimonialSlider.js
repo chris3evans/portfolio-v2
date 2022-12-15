@@ -3,26 +3,36 @@ import styles from "./TestimonialSlider.module.css";
 import TestimonialSlide from "../TestimonialSlide/TestimonialSlide";
 import TestimonialButtons from "../TestimonialButtons/TestimonialButtons";
 
+import { useState } from "react";
+
 const TestimonialSlider = function () {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slideBtnClickHandler = function (event) {
+    setCurrentSlide(+event.target.id);
+  };
+  const slides = [
+    "review-1.png",
+    "review-2.png",
+    "review-3.png",
+    "review-4.png",
+  ];
+
   return (
     <div className={styles["testimonial-slider"]}>
-      <TestimonialSlide
-        imageUrl="review-1.png"
-        slideNumber={1}
-      ></TestimonialSlide>
-      <TestimonialSlide
-        imageUrl="review-2.png"
-        slideNumber={2}
-      ></TestimonialSlide>
-      <TestimonialSlide
-        imageUrl="review-3.png"
-        slideNumber={3}
-      ></TestimonialSlide>
-      <TestimonialSlide
-        imageUrl="review-4.png"
-        slideNumber={4}
-      ></TestimonialSlide>
-      <TestimonialButtons></TestimonialButtons>
+      {slides.map((slide, index) => {
+        return (
+          <TestimonialSlide
+            imageUrl={slide}
+            slideNumber={index}
+            curSlide={currentSlide}
+          ></TestimonialSlide>
+        );
+      })}
+      <TestimonialButtons
+        numSlides={slides.length}
+        clickHandler={slideBtnClickHandler}
+        curSlide={currentSlide}
+      ></TestimonialButtons>
     </div>
   );
 };

@@ -1,8 +1,7 @@
 .testimonial-slider {
   overflow: hidden;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 10rem auto;
   height: 35rem;
   max-width: 120rem;
-  background-color: red;
 }

@@ -35,6 +35,18 @@ code {
     monospace;
 }
 
+h2 {
+  opacity: 1;
+  transform: translateY(0rem);
+  transition: all 3s;
+  font-size: 6rem;
+}
+
+.heading-hidden {
+  opacity: 0;
+  transform: translateY(5rem);
+}
+
 .card-site {
   perspective: 150rem;
   position: relative;

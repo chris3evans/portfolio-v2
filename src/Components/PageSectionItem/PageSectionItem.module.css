@@ -4,6 +4,7 @@
   cursor: pointer;
   display: flex;
   justify-self: center;
+  z-index: 100;
 }
 
 .page-section-item::before {

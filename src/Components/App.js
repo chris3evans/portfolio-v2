@@ -4,6 +4,7 @@ import AboutMeSection from "./AboutMeSection/AboutMeSection";
 import SkillsSection from "./SkillsSection/SkillsSection";
 import WorkSection from "./WorkSection/WorkSection";
 import ContactMeSection from "./ContactMeSection/ContactMeSection";
+import TestimonialSection from "./TestimonialSection/TestimonialSection";
 import FooterSection from "./FooterSection/FooterSection";
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
       <AboutMeSection></AboutMeSection>
       <SkillsSection></SkillsSection>
       <WorkSection></WorkSection>
+      <TestimonialSection></TestimonialSection>
       <ContactMeSection></ContactMeSection>
-      {/* Include a testimonials section */}
       <FooterSection></FooterSection>
     </div>
   );

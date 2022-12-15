@@ -18,6 +18,7 @@
 
 .skills-section-heading {
   font-size: 6rem;
+  animation: fadeUp 4s;
 }
 
 .skill-list-container {
@@ -58,4 +59,19 @@
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
 }

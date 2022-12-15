@@ -84,7 +84,7 @@ code {
 .card-back {
   background: linear-gradient(to bottom right, var(--color-light-red), grey);
   transition: all 1s ease;
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
   position: absolute;
   top: 0;
   left: 0;

@@ -5,7 +5,7 @@ import SiteList from "../SiteList/SiteList";
 
 const WorkSection = function () {
   return (
-    <div className={styles["work-section"]}>
+    <div className={styles["work-section"]} id="section-my-experience">
       <h2 className={styles["work-section-heading"]}>My Experience</h2>
       <div className={styles["work-section-lists"]}>
         <AppList></AppList>

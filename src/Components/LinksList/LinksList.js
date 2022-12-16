@@ -14,11 +14,6 @@ const LinkList = function () {
         asset="LinkedIn"
         imageUrl="linkedin-image-icon.png"
       ></LinkItem>
-      {/* <LinkItem
-        link="#"
-        asset="Resume"
-        imageUrl="resume-image-icon.png"
-      ></LinkItem> */}
     </ul>
   );
 };

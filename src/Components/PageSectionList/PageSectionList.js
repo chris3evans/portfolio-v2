@@ -1,5 +1,5 @@
-import styles from "./PageSectionList.module.css";
 import PageSectionItem from "../PageSectionItem/PageSectionItem";
+import "../../index.css";
 
 import { useState, useEffect } from "react";
 
@@ -27,7 +27,7 @@ const PageSectionList = function () {
   };
 
   return (
-    <ul className={styles["page-section-list"]}>
+    <ul className="page-section-list">
       <PageSectionItem
         id="#section-about-me"
         handler={setSectionHandler}

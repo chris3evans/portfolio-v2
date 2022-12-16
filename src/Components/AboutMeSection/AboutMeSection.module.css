@@ -6,6 +6,8 @@
   align-content: center;
   background: url("../../assets/hero-bg-4.png"),
     radial-gradient(rgb(71, 0, 0), black);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-heading {

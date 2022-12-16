@@ -1,8 +1,13 @@
 .link-item {
-  padding: 1rem 1rem;
+  padding: 1rem;
   cursor: pointer;
   display: flex;
   justify-self: center;
+}
+@media only screen and (max-width: 1200px) {
+  .link-item {
+    padding: 0.5rem;
+  }
 }
 
 .link-item:hover > a > .link-image {
@@ -13,4 +18,9 @@
   opacity: 1;
   height: 5rem;
   transition: all 0.3s;
+}
+@media only screen and (max-width: 1200px) {
+  .link-image {
+    height: 4rem;
+  }
 }

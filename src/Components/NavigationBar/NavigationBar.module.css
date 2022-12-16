@@ -1,12 +1,33 @@
-.navigation {
+.mobile-navigation {
+  border: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  animation: fadeUpIn 2s 1;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 100;
+  cursor: pointer;
+  display: none;
+  margin-right: 2.5rem;
+  z-index: 5;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation {
+    background-color: purple;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navigation {
+    background-color: red;
+  }
+  .mobile-navigation {
+    display: block;
+  }
+  .navigation-open .page-section-list {
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navigation {
+    background-color: yellow;
+  }
 }
 
 @keyframes fadeUpIn {

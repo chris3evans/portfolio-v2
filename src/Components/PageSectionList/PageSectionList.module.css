@@ -1,5 +1,0 @@
-.page-section-list {
-  display: grid;
-  grid-template-columns: repeat(5, max-content);
-  list-style: none;
-}

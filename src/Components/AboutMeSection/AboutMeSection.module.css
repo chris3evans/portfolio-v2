@@ -2,9 +2,10 @@
   height: 100vh;
   padding: 5rem;
   display: grid;
-  grid-template-rows: repeat(2, min-content);
-  grid-row-gap: 5rem;
+  grid-template-columns: 50% 50%;
   align-content: center;
+  background: url("../../assets/hero-bg-4.png"),
+    radial-gradient(rgb(71, 0, 0), black);
 }
 
 .hero-heading {
@@ -16,6 +17,10 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-row-gap: 1.5rem;
+}
+
+.hero-visual-container {
+  height: 100%;
 }
 
 .hero-text {
@@ -33,18 +38,6 @@
 }
 #hero-text-2 {
   animation: scale-easeOutElastic-2 5s 1;
-}
-
-.hero-special-text {
-  color: red;
-  background: -webkit-linear-gradient(
-    left,
-    var(--color-light-red),
-    var(--color-red)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
 }
 
 @keyframes wave {

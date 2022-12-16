@@ -4,6 +4,11 @@ import "../../index.css";
 const TheDragonClub = function () {
   return (
     <li key="dragon-club" className="card-site">
+            <a
+        href="https://the-dragons-club.netlify.app"
+        target="_blank"
+        className="card-link"
+      >
       <div className="card-front">
         <img
           className="project-image"
@@ -42,6 +47,7 @@ const TheDragonClub = function () {
           </a>
         </div>
       </div>
+      </a>
     </li>
   );
 };

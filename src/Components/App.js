@@ -27,7 +27,7 @@ function App() {
 
   const headingObserver = new IntersectionObserver(revealSubHeading, {
     root: null,
-    threshold: 0.5,
+    threshold: 0.15,
   });
 
   allHeadings.forEach(function (heading) {

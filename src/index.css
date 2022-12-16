@@ -47,6 +47,10 @@ h2 {
   transform: translateY(5rem);
 }
 
+h3 {
+  color: white;
+}
+
 .card-site {
   perspective: 150rem;
   position: relative;
@@ -118,13 +122,16 @@ h2 {
 .tech-title {
   font-size: 4rem;
   text-align: center;
+  color: white;
 }
 .tech-type-title {
   font-size: 3rem;
+  color: white;
 }
 .tech-text {
   font-size: 2rem;
   text-align: center;
+  color: white;
 }
 .button-container {
   display: flex;

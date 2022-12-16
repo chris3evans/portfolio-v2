@@ -4,6 +4,11 @@ import "../../index.css";
 const SkyDiveDubai = function () {
   return (
     <li key="skydive-dubai" className="card-site">
+      <a
+        href="https://dubai-skydive.netlify.app"
+        target="_blank"
+        className="card-link"
+      >
       <div className="card-front">
         <img
           className="project-image"
@@ -39,6 +44,7 @@ const SkyDiveDubai = function () {
           </a>
         </div>
       </div>
+      </a>
     </li>
   );
 };

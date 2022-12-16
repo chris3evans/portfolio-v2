@@ -24,11 +24,6 @@
     background-color: blue;
   }
 }
-@media only screen and (max-width: 600px) {
-  .navigation {
-    background-color: yellow;
-  }
-}
 
 @keyframes fadeUpIn {
   0% {

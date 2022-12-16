@@ -2,17 +2,38 @@
   height: 100vh;
   padding: 5rem;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   align-content: center;
   background: url("../../assets/hero-bg-4.png"),
     radial-gradient(rgb(71, 0, 0), black);
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen and (max-width: 1200px) {
+  .hero-section {
+    grid-template-columns: 100% 0%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    padding: 2.5rem;
+  }
+}
 
 .hero-heading {
   font-size: 10rem;
   animation: scale-easeOutElastic 2s 1;
+}
+@media only screen and (max-width: 900px) {
+  .hero-heading {
+    font-size: 8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-heading {
+    font-size: 6rem;
+    text-align: center;
+  }
 }
 
 .hero-text-container {
@@ -28,6 +49,17 @@
 .hero-text {
   font-size: 2.5rem;
   line-height: 4rem;
+}
+@media only screen and (max-width: 900px) {
+  .hero-text {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 
 #hello {

@@ -14,7 +14,7 @@ const AceCam = function () {
             className="project-image"
             src={require("../../assets/acecam.png")}
           ></img>
-          <h3 className={styles["project-title"]}>AceCam</h3>
+          <h3 className="project-title">AceCam</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

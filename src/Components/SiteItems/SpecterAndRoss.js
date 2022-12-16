@@ -14,8 +14,8 @@ const SpecterAndRoss = function () {
             className="project-image"
             src={require("../../assets/specter-ross.png")}
           ></img>
-          <h3 className={styles["project-title-top"]}>Specter &</h3>
-          <h3 className={styles["project-title-bottom"]}>Ross</h3>
+          <h3 className="project-title-top">Specter &</h3>
+          <h3 className="project-title-bottom">Ross</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

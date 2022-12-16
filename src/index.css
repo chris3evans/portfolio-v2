@@ -41,19 +41,26 @@ h2 {
   /* transition: all 3s; */
   font-size: 6rem;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   h2 {
     color: red;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   h2 {
     color: yellow;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   h2 {
     color: green;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    color: blue;
+    font-size: 4rem;
   }
 }
 
@@ -95,6 +102,34 @@ h3 {
   transform: translateY(-2rem) rotateY(0deg);
   box-shadow: 0rem 3rem 4rem rgba(255, 255, 255, 0.4);
 }
+@media only screen and (max-width: 1500px) {
+  .card-app,
+  .card-site {
+    width: 70rem;
+    height: 37rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card-app,
+  .card-site {
+    width: 60rem;
+    height: 31.7rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .card-app,
+  .card-site {
+    width: 50rem;
+    height: 26.4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card-app,
+  .card-site {
+    width: 35rem;
+    height: 18.5rem;
+  }
+}
 
 .card-front {
   transition: all 1s ease;
@@ -106,10 +141,110 @@ h3 {
   backface-visibility: hidden;
   padding: 1rem;
   box-shadow: 0rem 0.5rem 2rem rgba(255, 255, 255, 0.5);
+  transform: rotateY(0deg);
 }
 .project-image {
   width: 100%;
   height: 100%;
+}
+
+.project-title {
+  position: absolute;
+  bottom: 4rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  z-index: 2;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 1200px) {
+  .project-title {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .project-title {
+    font-size: 2.5rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project-title {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.project-title-top {
+  position: absolute;
+  bottom: 7.5rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  z-index: 2;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 1200px) {
+  .project-title-top {
+    font-size: 3rem;
+    bottom: 7rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .project-title-top {
+    font-size: 2.5rem;
+    padding: 0.75rem 1.5rem;
+    bottom: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project-title-top {
+    font-size: 2rem;
+    bottom: 4.75rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
+  }
+}
+
+.project-title-bottom {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    var(--color-red),
+    var(--color-light-red)
+  );
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 1200px) {
+  .project-title-bottom {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .project-title-bottom {
+    font-size: 2.5rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project-title-bottom {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 .card-back {
@@ -128,6 +263,22 @@ h3 {
   align-content: center;
   justify-content: center;
 }
+@media only screen and (max-width: 1500px) {
+  .card-back {
+    grid-row-gap: 2rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card-back {
+    grid-row-gap: 1.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .card-back {
+    grid-row-gap: 1rem;
+  }
+}
+
 .tech-list {
   display: grid;
   grid-template-rows: repeat(2, min-content);
@@ -139,14 +290,62 @@ h3 {
   text-align: center;
   color: white;
 }
+@media only screen and (max-width: 1500px) {
+  .tech-title {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .tech-title {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tech-title {
+    font-size: 2rem;
+  }
+}
+
 .tech-type-title {
   font-size: 3rem;
   color: white;
 }
+@media only screen and (max-width: 1500px) {
+  .tech-type-title {
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .tech-type-title {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tech-type-title {
+    font-size: 1.8rem;
+  }
+}
+
 .tech-text {
   font-size: 2rem;
   text-align: center;
   color: white;
+}
+@media only screen and (max-width: 1500px) {
+  .tech-text {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .tech-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tech-text {
+    font-size: 1.4rem;
+  }
 }
 .button-container {
   display: flex;
@@ -164,6 +363,23 @@ h3 {
 }
 .visit-button:hover {
   box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 1200px) {
+  .visit-button {
+    padding: 1rem 5.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .visit-button {
+    padding: 1rem 4.5rem;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .visit-button {
+    padding: 0.5rem 4rem;
+    font-size: 1.6rem;
+  }
 }
 
 .navigation {

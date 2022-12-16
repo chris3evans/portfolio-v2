@@ -10,8 +10,8 @@ const MyFitnessTracker = function () {
             className="project-image"
             src={require("../../assets/my-fitness-tracker.png")}
           ></img>
-          <h3 className={styles["project-title-top"]}>My Fitness</h3>
-          <h3 className={styles["project-title-bottom"]}>Tracker</h3>
+          <h3 className="project-title-top">My Fitness</h3>
+          <h3 className="project-title-bottom">Tracker</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>
@@ -32,7 +32,7 @@ const MyFitnessTracker = function () {
                   <p className="tech-text">React</p>
                 </li>
                 <li key="Tailwind CSS">
-                  <p className="tech-text">Tailwind CSS</p>
+                  <p className="tech-text">TailwindCSS</p>
                 </li>
               </ul>
             </div>

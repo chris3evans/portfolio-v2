@@ -6,3 +6,15 @@
   justify-items: center;
   grid-row-gap: 10rem;
 }
+
+@media only screen and (max-width: 1500px) {
+  .site-list {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, min-content);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .site-list {
+    grid-row-gap: 5rem;
+  }
+}

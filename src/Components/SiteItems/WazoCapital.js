@@ -14,8 +14,8 @@ const WazoCapital = function () {
             className="project-image"
             src={require("../../assets/wazo-capital.png")}
           ></img>
-          <h3 className={styles["project-title-top"]}>Wazo</h3>
-          <h3 className={styles["project-title-bottom"]}>Capital</h3>
+          <h3 className="project-title-top">Wazo</h3>
+          <h3 className="project-title-bottom">Capital</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

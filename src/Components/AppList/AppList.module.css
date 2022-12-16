@@ -5,3 +5,13 @@
   list-style: none;
   grid-row-gap: 15rem;
 }
+@media only screen and (max-width: 900px) {
+  .app-list {
+    grid-row-gap: 10rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .app-list {
+    grid-row-gap: 5rem;
+  }
+}

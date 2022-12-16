@@ -14,7 +14,7 @@ const Miniforge = function () {
             className="project-image"
             src={require("../../assets/miniforge.png")}
           ></img>
-          <h3 className={styles["project-title"]}>Miniforge</h3>
+          <h3 className="project-title">Miniforge</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

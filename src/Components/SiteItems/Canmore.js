@@ -14,7 +14,7 @@ const Canmore = function () {
             className="project-image"
             src={require("../../assets/canmore.png")}
           ></img>
-          <h3 className={styles["project-title"]}>Canmore</h3>
+          <h3 className="project-title">Canmore</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

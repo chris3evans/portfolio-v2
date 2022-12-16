@@ -14,12 +14,35 @@
     black
   );
 }
+@media only screen and (max-width: 600px) {
+  .skills-section {
+    padding: 2.5rem;
+  }
+}
 
 .skill-list-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 12.5rem;
+  grid-column-gap: 7.5rem;
   padding: 5rem;
+}
+@media only screen and (max-width: 1300px) {
+  .skill-list-container {
+    grid-template-columns: 50%;
+    grid-template-rows: repeat(3, min-content);
+    grid-row-gap: 17.5rem;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .skill-list-container {
+    grid-template-columns: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skill-list-container {
+    grid-template-columns: 75%;
+  }
 }
 
 .tech-icons-container {
@@ -53,4 +76,20 @@
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-heading {
+    color: red;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero-heading {
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-heading {
+    background-color: green;
+  }
 }

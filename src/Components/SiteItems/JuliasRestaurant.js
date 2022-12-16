@@ -14,8 +14,8 @@ const JuliasRestaurant = function () {
             className="project-image"
             src={require("../../assets/julias-restaurant.png")}
           ></img>
-          <h3 className={styles["project-title-top"]}>Julia's</h3>
-          <h3 className={styles["project-title-bottom"]}>Restaurant</h3>
+          <h3 className="project-title-top">Julia's</h3>
+          <h3 className="project-title-bottom">Restaurant</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>

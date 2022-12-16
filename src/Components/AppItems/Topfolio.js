@@ -10,7 +10,7 @@ const Topfolio = function () {
             className="project-image"
             src={require("../../assets/topfolio.png")}
           ></img>
-          <h3 className={styles["project-title"]}>Topfolio</h3>
+          <h3 className="project-title">Topfolio</h3>
         </div>
         <div className="card-back">
           <h3 className="tech-title">Tech Stack</h3>
@@ -31,7 +31,7 @@ const Topfolio = function () {
                   <p className="tech-text">React</p>
                 </li>
                 <li key="Material UI">
-                  <p className="tech-text">Material UI</p>
+                  <p className="tech-text">MaterialUI</p>
                 </li>
                 <li key="TypeScript">
                   <p className="tech-text">TypeScript</p>

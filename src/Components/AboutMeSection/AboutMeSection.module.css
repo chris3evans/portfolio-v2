@@ -2,9 +2,11 @@
   height: 100vh;
   padding: 5rem;
   display: grid;
-  grid-template-rows: repeat(2, min-content);
-  grid-row-gap: 5rem;
-  align-content: center;
+  grid-template-columns: 50% 50%;
+  /* grid-row-gap: 5rem; */
+  align-content: flex-start;
+  background: url("../../assets/hero-bg-4.png"),
+    radial-gradient(rgb(71, 0, 0), black);
 }
 
 .hero-heading {
@@ -16,6 +18,11 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-row-gap: 1.5rem;
+}
+
+.hero-visual-container {
+  height: 100%;
+  /* background: radial-gradient(var(--color-very-dark-red), black); */
 }
 
 .hero-text {

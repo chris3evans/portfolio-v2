@@ -1,19 +1,20 @@
-import styles from "./FrontEndSkillList.module.css";
+import "./SkillList.css";
 
 import SkillItem from "../SkillItem/SkillItem";
 
 const FrontEndSkillList = function () {
   return (
-    <div className={styles["skills"]}>
-      <div className={styles["skills-top-light-container"]}>
+    <div className="skills">
+      <div className="skills-top-light-container">
         <img
-          className={styles["skills-top-light-image"]}
+          className="skills-top-light-image"
           src={require("../../assets/top-spot-light-transparent.png")}
+          alt="visual effect of light shining on the floor"
         ></img>
       </div>
-      <div className={styles["skills-container"]}>
-        <h3 className={styles["skill-list-heading"]}>Front End</h3>
-        <ul className={styles["skills-list"]}>
+      <div className="skills-container">
+        <h3 className="skill-list-heading">Front End</h3>
+        <ul className="skills-list">
           <SkillItem skill="JavaScript"></SkillItem>
           <SkillItem skill="HTML5"></SkillItem>
           <SkillItem skill="CSS3"></SkillItem>
@@ -23,10 +24,11 @@ const FrontEndSkillList = function () {
           <SkillItem skill="Angular"></SkillItem>
         </ul>
       </div>
-      <div className={styles["skills-bottom-light-container"]}>
+      <div className="skills-bottom-light-container">
         <img
-          className={styles["skills-bottom-light-image"]}
+          className="skills-bottom-light-image"
           src={require("../../assets/bottom-spot-light-transparent.png")}
+          alt="visual effect of a spotlight shining upwards"
         ></img>
       </div>
     </div>

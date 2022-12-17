@@ -1,4 +1,3 @@
-import styles from "./App.module.css";
 import "../index.css";
 import NavigationBar from "./NavigationBar/NavigationBar";
 import AboutMeSection from "./AboutMeSection/AboutMeSection";
@@ -36,7 +35,7 @@ function App() {
   });
 
   return (
-    <div className={styles["app"]}>
+    <div>
       <NavigationBar></NavigationBar>
       <AboutMeSection></AboutMeSection>
       <SkillsSection></SkillsSection>

@@ -1,7 +1,9 @@
-.skill {
-}
-
 .skill-text {
   font-size: 2.5rem;
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .skill-text {
+    font-size: 2rem;
+  }
 }

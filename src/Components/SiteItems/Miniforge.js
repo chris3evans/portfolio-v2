@@ -1,5 +1,5 @@
 import styles from "./Miniforge.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const Miniforge = function () {
   return (
@@ -8,11 +8,13 @@ const Miniforge = function () {
         href="https://miniforge-email-sign-up.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/miniforge.png")}
+            alt="A view of the hero section for miniforge"
           ></img>
           <h3 className="project-title">Miniforge</h3>
         </div>

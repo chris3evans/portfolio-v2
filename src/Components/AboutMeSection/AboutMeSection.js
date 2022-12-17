@@ -14,7 +14,7 @@ const AboutMeSection = function () {
           I am a full-stack developer based near London, UK. Over my years of
           experience I have worked on a mixture of websites, front-end apps and
           full-stack apps. My specialty is building responsive, aesthetic UI's
-          using technologies such as React and CSS.
+          and integrating them with back-end technologies.
         </p>
       </div>
       <div className={styles["hero-visual-container"]}></div>

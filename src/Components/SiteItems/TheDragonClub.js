@@ -1,5 +1,5 @@
 import styles from "./TheDragonClub.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const TheDragonClub = function () {
   return (
@@ -8,11 +8,13 @@ const TheDragonClub = function () {
         href="https://the-dragons-club.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/dragon-club.png")}
+            alt="A view of the hero section for the dragons club"
           ></img>
           <h3 className="project-title-top">The Dragons</h3>
           <h3 className="project-title-bottom">Club</h3>

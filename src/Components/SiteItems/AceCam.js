@@ -1,5 +1,5 @@
 import styles from "./AceCam.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const AceCam = function () {
   return (
@@ -8,11 +8,13 @@ const AceCam = function () {
         href="https://ace-cam.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/acecam.png")}
+            alt="A view of the hero section for acecam"
           ></img>
           <h3 className="project-title">AceCam</h3>
         </div>

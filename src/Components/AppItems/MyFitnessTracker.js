@@ -1,14 +1,15 @@
 import styles from "./MyFitnessTracker.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const MyFitnessTracker = function () {
   return (
     <li key="my-fitness-tracker" className="card-app">
-      <a href="#" target="_blank" className="card-link">
+      <a href="#" target="_blank" className="card-link" rel="noreferrer">
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/my-fitness-tracker.png")}
+            alt="The home page view for My Fitness Tracker"
           ></img>
           <h3 className="project-title-top">My Fitness</h3>
           <h3 className="project-title-bottom">Tracker</h3>

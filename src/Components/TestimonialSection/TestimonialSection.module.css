@@ -11,3 +11,13 @@
 .testimonials-section-heading {
   margin-bottom: 15rem;
 }
+@media only screen and (max-width: 1200px) {
+  .testimonials-section-heading {
+    margin-bottom: 5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .testimonials-section-heading {
+    margin-bottom: 0rem;
+  }
+}

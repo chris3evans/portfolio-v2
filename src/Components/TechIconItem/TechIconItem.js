@@ -6,6 +6,7 @@ const TechIconItem = function (props) {
       <img
         className={styles["tech-icon"]}
         src={require(`../../assets/${props.imageUrl}`)}
+        alt={`The icon for ${props.tech}`}
       ></img>
     </li>
   );

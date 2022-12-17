@@ -1,5 +1,5 @@
 import styles from "./SpecterAndRoss.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const SpecterAndRoss = function () {
   return (
@@ -8,11 +8,13 @@ const SpecterAndRoss = function () {
         href="https://specter-and-ross.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/specter-ross.png")}
+            alt="A view of the hero section for specter and ross"
           ></img>
           <h3 className="project-title-top">Specter &</h3>
           <h3 className="project-title-bottom">Ross</h3>

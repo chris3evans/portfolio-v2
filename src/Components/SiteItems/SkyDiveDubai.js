@@ -1,5 +1,5 @@
 import styles from "./SkyDiveDubai.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const SkyDiveDubai = function () {
   return (
@@ -8,11 +8,13 @@ const SkyDiveDubai = function () {
         href="https://dubai-skydive.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/skydive-dubai.png")}
+            alt="A view of the hero section for skydive dubai"
           ></img>
           <h3 className="project-title-top">Sky Dive</h3>
           <h3 className="project-title-bottom">Dubai</h3>

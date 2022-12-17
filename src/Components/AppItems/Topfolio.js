@@ -1,14 +1,15 @@
 import styles from "./Topfolio.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const Topfolio = function () {
   return (
     <li key="topfolio" className="card-app">
-      <a href="#" target="_blank" className="card-link">
+      <a href="#" target="_blank" className="card-link" rel="noreferrer">
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/topfolio.png")}
+            alt="The landing page view for Topfolio"
           ></img>
           <h3 className="project-title">Topfolio</h3>
         </div>

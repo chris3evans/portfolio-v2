@@ -23,12 +23,14 @@ const NavigationBar = function () {
           id="open-icon"
           className="mobile-navigation-icon"
           src={require("../../assets/menu-icon.png")}
+          alt="White icon of a menu tab"
         ></img>
         <img
           onClick={closeMobileNavigationHandler}
           id="close-icon"
           className="mobile-navigation-icon"
           src={require("../../assets/close-icon.png")}
+          alt="White icon of a cross"
         ></img>
       </button>
     </nav>

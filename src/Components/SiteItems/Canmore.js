@@ -1,5 +1,5 @@
 import styles from "./Canmore.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const Canmore = function () {
   return (
@@ -8,11 +8,13 @@ const Canmore = function () {
         href="https://canmore.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/canmore.png")}
+            alt="A view of the hero section for canmore"
           ></img>
           <h3 className="project-title">Canmore</h3>
         </div>

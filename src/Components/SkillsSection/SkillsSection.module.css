@@ -28,7 +28,7 @@
 }
 @media only screen and (max-width: 1300px) {
   .skill-list-container {
-    grid-template-columns: 50%;
+    grid-template-columns: 60%;
     grid-template-rows: repeat(3, min-content);
     grid-row-gap: 17.5rem;
     justify-content: center;
@@ -36,12 +36,12 @@
 }
 @media only screen and (max-width: 900px) {
   .skill-list-container {
-    grid-template-columns: 60%;
+    grid-template-columns: 80%;
   }
 }
 @media only screen and (max-width: 600px) {
   .skill-list-container {
-    grid-template-columns: 75%;
+    grid-template-columns: 90%;
   }
 }
 
@@ -52,26 +52,18 @@
   margin: 10rem auto 0rem auto;
   display: flex;
 }
-@media only screen and (max-width: 1500px) {
-  .tech-icons-container {
-    background-color: green;
-  }
-}
 @media only screen and (max-width: 1200px) {
   .tech-icons-container {
-    background-color: yellow;
     width: 80rem;
   }
 }
 @media only screen and (max-width: 900px) {
   .tech-icons-container {
-    background-color: red;
     width: 50rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .tech-icons-container {
-    background-color: blue;
     width: 30rem;
   }
 }

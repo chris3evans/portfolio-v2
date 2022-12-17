@@ -1,5 +1,5 @@
 import styles from "./WazoCapital.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const WazoCapital = function () {
   return (
@@ -8,11 +8,13 @@ const WazoCapital = function () {
         href="https://wazo-capital.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/wazo-capital.png")}
+            alt="A view of the hero section for wazo capital"
           ></img>
           <h3 className="project-title-top">Wazo</h3>
           <h3 className="project-title-bottom">Capital</h3>

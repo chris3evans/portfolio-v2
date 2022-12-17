@@ -13,6 +13,7 @@ const ContactMeForm = function () {
             <img
               className={styles["contact-me-icon"]}
               src={require("../../assets/email-transparent.png")}
+              alt="A white outline of a mail letter"
             ></img>
           </a>
         </div>
@@ -20,6 +21,7 @@ const ContactMeForm = function () {
           <img
             className={styles["icon-hover-image"]}
             src={require("../../assets/top-spot-light-transparent.png")}
+            alt="visual effect of light shining on the floor"
           ></img>
         </div>
       </div>

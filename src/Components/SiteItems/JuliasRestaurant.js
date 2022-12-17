@@ -1,5 +1,5 @@
 import styles from "./JuliasRestaurant.module.css";
-import "../../index.css";
+import "../WorkSection/WorkProjects.css";
 
 const JuliasRestaurant = function () {
   return (
@@ -8,11 +8,13 @@ const JuliasRestaurant = function () {
         href="https://julias-restaurant.netlify.app"
         target="_blank"
         className="card-link"
+        rel="noreferrer"
       >
         <div className="card-front">
           <img
             className="project-image"
             src={require("../../assets/julias-restaurant.png")}
+            alt="A view of the hero section for julia's restaurant"
           ></img>
           <h3 className="project-title-top">Julia's</h3>
           <h3 className="project-title-bottom">Restaurant</h3>

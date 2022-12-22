@@ -4,7 +4,7 @@ import "../WorkSection/WorkProjects.css";
 const Topfolio = function () {
   return (
     <li key="topfolio" className="card-app">
-      <a href="#" target="_blank" className="card-link" rel="noreferrer">
+      <a href="https://topfolio.herokuapp.com/" target="_blank" className="card-link" rel="noreferrer">
         <div className="card-front">
           <img
             className="project-image"
@@ -59,7 +59,7 @@ const Topfolio = function () {
             </div>
           </div>
           <div className="button-container">
-            <a type="button" href="#" target="_blank" className="visit-button">
+            <a type="button" href="https://topfolio.herokuapp.com/" target="_blank" className="visit-button">
               Visit
             </a>
           </div>

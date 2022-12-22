@@ -4,7 +4,7 @@ import "../WorkSection/WorkProjects.css";
 const MyFitnessTracker = function () {
   return (
     <li key="my-fitness-tracker" className="card-app">
-      <a href="#" target="_blank" className="card-link" rel="noreferrer">
+      <a href="https://my-fitness-tracker.herokuapp.com/" target="_blank" className="card-link" rel="noreferrer">
         <div className="card-front">
           <img
             className="project-image"
@@ -57,7 +57,7 @@ const MyFitnessTracker = function () {
             </div>
           </div>
           <div className="button-container">
-            <a type="button" href="#" target="_blank" className="visit-button">
+            <a type="button" href="https://my-fitness-tracker.herokuapp.com/" target="_blank" className="visit-button">
               Visit
             </a>
           </div>

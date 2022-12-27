@@ -7,21 +7,9 @@
   z-index: 5;
   background-color: transparent;
 }
-
-@media only screen and (max-width: 1200px) {
-  .navigation {
-    background-color: purple;
-  }
-}
 @media only screen and (max-width: 900px) {
-  .navigation {
-    background-color: red;
-  }
   .mobile-navigation {
     display: block;
-  }
-  .navigation-open .page-section-list {
-    background-color: blue;
   }
 }
 
